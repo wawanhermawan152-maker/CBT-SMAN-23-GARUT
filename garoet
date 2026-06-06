@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBT SMAN 23 GARUT</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            height: 100%;
+            background-color: #f3f4f6;
+        }
+        .iframe-container {
+            position: absolute;
+            top: -50px; /* Dorong sejauh 50px ke atas untuk memotong banner biru Google */
+            left: 0;
+            width: 100%;
+            height: calc(100% + 50px);
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="iframe-container">
+        <iframe 
+            src="https://script.google.com/macros/s/AKfycbx2ygRUHyj_ZD9ua9FSgCjmhjbh_9Y8iKtmz61xb6g6xVfaxAcc60smk5ctircCvVQZ/exec" 
+            allow="autoplay">
+        </iframe>
+    </div>
+
+</body>
+</html>
