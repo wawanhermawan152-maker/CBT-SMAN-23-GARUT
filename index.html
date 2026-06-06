@@ -12,12 +12,13 @@
             height: 100%;
             background-color: #f3f4f6;
         }
+        /* Kontainer untuk memotong banner biru Google Apps Script */
         .iframe-container {
             position: absolute;
-            top: -50px; /* Dorong sejauh 50px ke atas untuk memotong banner biru Google */
+            top: -50px; /* Mendorong banner biru ke atas keluar dari batas layar */
             left: 0;
             width: 100%;
-            height: calc(100% + 50px);
+            height: calc(100% + 50px); /* Menambah kompensasi tinggi agar bagian bawah tidak terpotong */
         }
         iframe {
             width: 100%;
